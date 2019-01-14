@@ -57,7 +57,7 @@ void main()
 	{
 		leapyearcode = 0;
 	}
-	day = (yearcode + monthcode + centurycode + leapyearcode) % 7;
+	day = (yearcode + monthcode + centurycode + leapyearcode+1) % 7;
 	if (mm = 1 || 3 || 5 || 7 || 8 || 10 ||12)
 		{
 			noofdays = 31;
